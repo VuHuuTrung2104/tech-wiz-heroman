@@ -1,0 +1,5 @@
+UI Header, Search, Sort theo type: component-tạm thời fix cứng.
+Một Card data: Ảnh, Tên, Nút: Sửa, Xóa, Like.
+Hai form: thêm, sửa
+	- modal form: (ấn vào hiện lên trên)
+Feedback, Contact là 1 page
