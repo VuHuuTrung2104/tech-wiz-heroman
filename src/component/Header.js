@@ -45,7 +45,7 @@ function Header () {
                 <button style={navSearch} class="btn btn-outline-danger" type="submit">Search</button>
               </form>
               <li className="nav-item">
-                <img style={navImageStream} src='https://www.freepnglogos.com/uploads/logo-home-png/chimney-home-icon-transparent-1.png'></img>
+                <img style={{...navImageStream, filter:'invert(1)'}} src='https://www.freepnglogos.com/uploads/logo-home-png/chimney-home-icon-transparent-1.png'></img>
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/'}>Trang chủ</NavLink>
               </li>
               <li className="nav-item">
