@@ -24,7 +24,8 @@
       "id": 1,
       "name": "Pew pew",
       "provider": 1,
-      "previewImg": "https://i.ytimg.com/vi/OBG70L0vCic/maxresdefault.jpg"
+      "previewImg": "https://i.ytimg.com/vi/OBG70L0vCic/maxresdefault.jpg",
+      "url":"https://www.youtube.com/PewPew"
     },
     {
       "id": 2,
