@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿import React, { useState } from 'react';
 import myData from '../dum-data';
 import { Link } from 'react-router-dom';
@@ -45,3 +46,22 @@ export default function Card() {
 		</div>
 	);
 }
+=======
+function Card() {
+  return (
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p className="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <button className="btn btn-danger px-4">Delete</button>
+        <button className="btn btn-primary px-4">Swich</button>
+      </div>
+    </div>
+  );
+}
+export default Card;
+>>>>>>> 73d8434ed7e820c64941b340f1eef6f266352f0f
