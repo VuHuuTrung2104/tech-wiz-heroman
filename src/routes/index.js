@@ -4,7 +4,7 @@ import NotFoundPage from "../pages/notfound";
 import SteamPage from "../pages/SteamPage";
 import YoutubePage from "../pages/YoutubePage";
 import TwitchPage from "../pages/TwitchPage";
-import CardPage from "../pages/Card";
+import CardPage from "../component/Card";
 
 function AppRoutes() {
     
