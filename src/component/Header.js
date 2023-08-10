@@ -42,9 +42,9 @@ function Header () {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <form class="d-flex" style={navbar}>
-                <input style={navSearch} class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button style={navSearch} class="btn btn-outline-danger" type="submit">Search</button>
+              <form className="d-flex" style={navbar}>
+                <input style={navSearch} className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button style={navSearch} className="btn btn-outline-danger" type="submit">Search</button>
               </form>
               <li className="nav-item">
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/'}
