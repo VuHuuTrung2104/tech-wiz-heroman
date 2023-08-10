@@ -1,19 +1,48 @@
 ﻿{
-	"listProvider": [
-		{
-			"id": 1,
-			"name": "Youtube",
-			"url":"",
-			"logoUrl":""
-		}
-	],
-	"listChannel": [
-		{
-			"id": 1,
-			"name":"Pew pew",
-			"provider": 1,
-			"previewImg":""
-		}
-	],
-	"name": "my-todo-list"
+  "listProvider": [
+    {
+      "id": 1,
+      "name": "Youtube",
+      "url": "https://www.youtube.com/",
+      "logoUrl": "https://static.vecteezy.com/system/resources/previews/018/930/572/original/youtube-logo-youtube-icon-transparent-free-png.png"
+    },
+    {
+      "id": 2,
+      "name": "NimoTV",
+      "url": "https://www.nimo.tv/",
+      "logoUrl": "https://img.nimo.tv/t/201904201555769461347_1599513189974_avatar.png/l0/img.png"
+    },
+    {
+      "id": 3,
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/",
+      "logoUrl": "https://w7.pngwing.com/pngs/968/223/png-transparent-logo-twitch-logos-brands-icon-thumbnail.png"
+    }
+  ],
+  "listChannel": [
+    {
+      "id": 1,
+      "name": "Pew pew",
+      "provider": 1,
+      "previewImg": "https://i.ytimg.com/vi/OBG70L0vCic/maxresdefault.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mixi Gaming",
+      "provider": 2,
+      "previewImg": "https://i.ytimg.com/vi/LLJ4Mo8gTi0/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDDWRjgFeA_T3OTINeb0_CBjqFFfw"
+    },
+    {
+      "id": 3,
+      "name": "PewDiePie",
+      "provider": 1,
+      "previewImg": "https://cdn.tubeast.com/what_site_does_pewdiepie_stream_on.gTF66-LwqTMtYIzwyG1PLRazmAEnZRcoy-UDwkr3iA8BRBfRyC6RKOEeMcsyKEut7cFG4a9pxt3H3C7pdKuTDRda5TQRbhZUIH1-bTI7e9mXyda3u7IbD6NQfqjCw7w=w1200-h630-p-k-no-nu"
+    },
+    {
+      "id": 4,
+      "name": "Tenz",
+      "provider": 3,
+      "previewImg": "https://i.ex-cdn.com/mgn.vn/files/content/2023/03/04/rsz_c9-tenz-0956.jpg"
+    }
+  ]
 }
