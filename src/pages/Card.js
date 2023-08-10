@@ -13,8 +13,10 @@ export default function HomePage() {
 							<div className='d-flex justify-content-between p-3'>
 								<p className='lead mb-0'>Ohsusu</p>
 								<div
-									className='bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong width: 35px; height: 35px;'>
-									<p className='text-white mb-0 small'>living</p>
+									className='bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong' style={{
+										width: '35px', height: '35px'
+									}}>
+									<p className='text-white mb-0 small'>Live</p>
 								</div>
 							</div>
 							<div className='card-body'>
