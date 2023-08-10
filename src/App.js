@@ -5,7 +5,7 @@ import Header from './component/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: 'rgb(70, 70, 70)'}}>
       <Header/>
       <AppRoutes/>
       
