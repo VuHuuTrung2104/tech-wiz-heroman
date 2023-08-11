@@ -25,25 +25,56 @@
       "name": "Pew pew",
       "provider": 1,
       "previewImg": "https://i.ytimg.com/vi/OBG70L0vCic/maxresdefault.jpg",
-      "url":"https://www.youtube.com/PewPew"
+      "url": "https://www.youtube.com/PewPew"
     },
     {
       "id": 2,
       "name": "Mixi Gaming",
       "provider": 2,
-      "previewImg": "https://i.ytimg.com/vi/1YpPIQZ7XQ8/maxresdefault.jpg"
+      "previewImg": "https://i.ytimg.com/vi/1YpPIQZ7XQ8/maxresdefault.jpg",
+      "url": "https://www.youtube.com/@MixiGaming89"
     },
     {
       "id": 3,
       "name": "PewDiePie",
       "provider": 1,
-      "previewImg": "https://www.gry-online.pl/i/h/22/527242656.jpg"
+      "previewImg": "https://www.gry-online.pl/i/h/22/527242656.jpg",
+      "url": "https://www.youtube.com/@PewDiePie"
     },
     {
       "id": 4,
       "name": "Tenz",
       "provider": 3,
-      "previewImg": "https://i.ex-cdn.com/mgn.vn/files/content/2023/03/04/rsz_c9-tenz-0956.jpg"
+      "previewImg": "https://i.ex-cdn.com/mgn.vn/files/content/2023/03/04/rsz_c9-tenz-0956.jpg",
+      "url": "https://www.youtube.com/@TenZ"
+    },
+    {
+      "id": 5,
+      "name": "Bomman",
+      "provider": 1,
+      "previewImg": "https://static.wikia.nocookie.net/youtubia-viet-nam/images/e/e4/Bomman_1.jpg/revision/latest?cb=20211225110311&path-prefix=vi",
+      "url": "https://www.youtube.com/@Bomman"
+    },
+    {
+      "id": 6,
+      "name": "Truc Tiep Game",
+      "provider": 1,
+      "previewImg": "https://cdn-img.thethao247.vn/upload/nhathuy/2018/09/20/DUNGCT_1.jpg",
+      "url": "https://www.youtube.com/@TrucTiepGameVN"
+    },
+    {
+      "id": 7,
+      "name": "Tarik",
+      "provider": 3,
+      "previewImg": "https://game8.vn/media/202208/images/tarik-sentinels-2.jpg",
+      "url": "https://www.twitch.tv/tarik"
+    },
+    {
+      "id": 8,
+      "name": "Papaplate",
+      "provider": 3,
+      "previewImg": "https://static-cdn.jtvnw.net/jtv_user_pictures/04abc1b4-7bad-4b55-8da8-c0f1cf031bda-profile_image-300x300.png",
+      "url": "https://www.twitch.tv/papaplatte"
     }
   ]
 }
