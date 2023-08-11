@@ -1,16 +1,6 @@
 import React, { useState } from "react";
 import Card from "../component/card";
 import dummyData from "../dum-data/index.json";
-
-<<<<<<< HEAD
-export default function TwitchPagePage(params) {
-    return(
-        <div style={{backgroundColor: 'rgb(70, 70, 70)'}}>
-            day la Twitch-page
-        </div>
-    );
-}
-=======
 function TwitchPage() {
   console.log(dummyData);
   const [listChannel, setlistChannel] = useState(dummyData.listChannel || []);
@@ -32,4 +22,4 @@ function TwitchPage() {
   );
 }
 export default TwitchPage;
->>>>>>> 9f27c54b529cfc3b01eeb7b3c63f6463682f0209
+
