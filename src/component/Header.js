@@ -1,92 +1,179 @@
 import { NavLink, Link } from "react-router-dom";
-import pictures from '../pictures/istockphoto-1319815121-1024x1024-removebg-preview.png'
+import pictures from "../pictures/istockphoto-1319815121-1024x1024-removebg-preview.png";
 
-function Header () {
-    const navItem ={
-      textDecoration: 'none',
-      color: '#adb5bd' ,
-      fontSize: '14px',
-      display: 'block',
-      padding: '10px ', 
-      letterSpacing: '1px',
-  
+function Header() {
+  const navItem = {
+    textDecoration: "none",
+    color: "#adb5bd",
+    fontSize: "14px",
+    display: "block",
+    padding: "10px ",
+    letterSpacing: "1px",
+  };
+  const navImage = {
+    width: "190px",
+    padding: "0px 10px",
+  };
+  const navImageStream = {
+    width: "32px",
+    borderRadius: "6px",
+    display: "block",
+    margin: "auto",
+  };
+  const navSearch = {
+    height: "40px",
+  };
+  const navbar = {
+    alignItems: "center",
+  };
+  const bigNavbar = {
+    padding: "0px",
+  };
 
-    };
-    const navImage ={
-      width:'190px',
-      padding: '0px 10px',
-    };
-    const navImageStream ={
-      width:'32px',
-      borderRadius: '6px',
-      display: 'block',
-      margin: 'auto',
-    };
-    const navSearch ={
-     height: '40px',
-     
-    };
-    const navbar = {
-      alignItems: 'center',
-    };
-    const bigNavbar = {
-      padding: '0px',
-    };
-    
-    return(
-        <nav style={bigNavbar} className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
-        <div className="container-fluid">
-          <img style={navImage}  src={pictures}></img>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <form className="d-flex" style={navbar}>
-                <input style={navSearch} className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button style={navSearch} className="btn btn-outline-danger" type="submit">Search</button>
-              </form>
-              <li className="nav-item">
-                <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/'}
-                >
-                   <img style={{...navImageStream, filter:'invert(1)'}} src='https://www.freepnglogos.com/uploads/logo-home-png/chimney-home-icon-transparent-1.png'></img>
-                 Home Page</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/NimoTV-page'}>
-                <img style={navImageStream} src='https://img.nimo.tv/t/201904201555769461347_1599513189974_avatar.png/l0/img.png'></img>
-                  NimoTv</NavLink>
+  return (
+    <nav
+      style={bigNavbar}
+      className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow"
+    >
+      <div className="container-fluid">
+        <img style={navImage} src={pictures}></img>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <form className="d-flex" style={navbar}>
+              <input
+                style={navSearch}
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                style={navSearch}
+                className="btn btn-outline-danger"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white border-bottom border-2 border-white"
+                    : ""
+                }
+                style={navItem}
+                to={"/"}
+              >
+                <img
+                  style={{ ...navImageStream, filter: "invert(1)" }}
+                  src="https://www.freepnglogos.com/uploads/logo-home-png/chimney-home-icon-transparent-1.png"
+                ></img>
+                Home Page
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white border-bottom border-2 border-white"
+                    : ""
+                }
+                style={navItem}
+                to={"/NimoTV-page"}
+              >
+                <img
+                  style={navImageStream}
+                  src="https://img.nimo.tv/t/201904201555769461347_1599513189974_avatar.png/l0/img.png"
+                ></img>
+                NimoTv
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white border-bottom border-2 border-white"
+                    : ""
+                }
+                style={navItem}
+                to={"/Youtube-page"}
+              >
+                <img
+                  style={navImageStream}
+                  src="https://img.freepik.com/free-icon/youtube_318-183441.jpg?w=360"
+                ></img>
+                Youtube
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white border-bottom border-2 border-white"
+                    : ""
+                }
+                style={navItem}
+                to={"/Twitch-page"}
+              >
+                <img
+                  style={navImageStream}
+                  src="https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?w=2000"
+                ></img>
+                Twitch
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white border-bottom border-2 border-white"
+                    : ""
+                }
+                style={navItem}
+                to={"/FavPage"}
+              >
+                <img
+                  style={navImageStream}
+                  src="https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?w=2000"
+                ></img>
+                Favourite
+              </NavLink>
+            </li>
 
-              </li>
-              <li className="nav-item">
-                
-                <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/Youtube-page'}>
-                <img style={navImageStream} src='https://img.freepik.com/free-icon/youtube_318-183441.jpg?w=360'></img>
-                  Youtube</NavLink>
-
-              </li>
-              <li className="nav-item">
-                <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/Twitch-page'}>
-                <img style={navImageStream} src='https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?w=2000'></img>
-                  Twitch</NavLink>
-
-              </li>
-              <li style={{margin: '15px 0px 0px 150px',  }} className="nav-item">
-                <NavLink  style={{color:'white', textDecoration: 'none'}} to={'#'}>
-                
-                  My Favourites</NavLink>
-
-              </li>
-              <li style={{margin: '15px 0px 0px 150px',  }} className="nav-item">
-                <NavLink  style={{color:'white', textDecoration: 'none'}} to={'/ContactUs'}>
-                
-                  My Contact</NavLink>
-
-              </li>
-            </ul>  
-            
-          </div>
+            <li style={{ margin: "15px 0px 0px 150px" }} className="nav-item">
+              <NavLink
+                style={{ color: "white", textDecoration: "none" }}
+                to={"/ContactUs"}
+              >
+                My Contact
+              </NavLink>
+            </li>
+          </ul>
         </div>
-      </nav>  
-    );
-}export default Header;
+      </div>
+    </nav>
+  );
+}
+export default Header;

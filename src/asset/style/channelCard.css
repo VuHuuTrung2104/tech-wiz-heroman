@@ -1,0 +1,19 @@
+.delete-icon {
+  width: 14px;
+  filter: invert(1);
+}
+.delete-btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button-ico {
+  padding: 0;
+}
+.button-ico svg {
+  width: 14px;
+  height: 14px;
+}
