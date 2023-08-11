@@ -1,14 +1,14 @@
 ﻿import React, { useState } from 'react';
 import myData from '../dum-data';
 import { Link } from 'react-router-dom';
-export default function Card(props) {
+export default function FeedbackPage(props) {
 	const {channel} = props
 	return (
-		<div className='card'>
+		<div className='card' style={{background: 'rgb(36, 36, 36)'}}>
 							<div className='d-flex justify-content-between p-3'>
-								<p className='lead mb-0'>{channel.name}</p>
+								<p style={{color: 'white', fontSize:'20px', fontWeight:'500'}} className='lead mb-0'>{channel.name}</p>
 								<div
-									className='bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong' style={{
+									className='bg-danger rounded-circle d-flex align-items-center justify-content-center shadow-1-strong' style={{
 										width: '35px', height: '35px'
 									}}>
 									<p className='text-white mb-0 small'>Live</p>
@@ -32,9 +32,9 @@ export default function Card(props) {
 										<i className='fa fa-star'></i>
 									</div>
 								</div>
-								<button className='btn btn-primary d-block w-100'>
+								<button className='btn btn-danger d-block w-100'>
 
-									<a href={channel.url} target='_blank' className='text-white text-decoration-none'>Watch</a>
+									<a href={channel.url} target='_blank' className='text-white text-decoration-none '>Watch</a>
 								</button>
 							</div>
 						</div>

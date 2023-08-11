@@ -1,0 +1,74 @@
+.container-fluid {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(205, 195, 190, 0.732) ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.container {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    
+}
+.header-page {
+   padding-top: 50px;
+   
+    
+}
+.mr-auto {
+    margin-left: auto;
+}
+.nav-item {
+    padding-left: 50px;
+}
+.contact-tittle {
+    margin-top: 50px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.contact-text {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.btn {
+    padding: 12px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.icon-color {
+    
+    padding-right: 10px;
+}
+.btn-b {
+    border: 1px solid black;
+    font-weight: 500
+    
+   
+}
+.btn-h {
+    height: 50px;
+    background-color: white;
+}
+.mr-chat {
+    margin-top: 20px;
+}
+.name-input {
+    width: 90%;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+.text-input {
+    width: 90%;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
