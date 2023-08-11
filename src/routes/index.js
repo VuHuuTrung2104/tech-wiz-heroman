@@ -11,6 +11,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
+      <Route path="/tech-wiz-heroman" element={<HomePage />}></Route>
       <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>
       <Route path="/NimoTV-page" element={<NimoTVPage />}></Route>
       <Route path="/Youtube-page" element={<YoutubePage />}></Route>
