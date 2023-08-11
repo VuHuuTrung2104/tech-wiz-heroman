@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Card from "../component/card";
 import dummyData from "../dum-data/index.json";
 
-function TwitchPage() {
+function NimoTVPage() {
   console.log(dummyData);
   const [listChannel, setlistChannel] = useState(dummyData.listChannel || []);
   const matchListChannel = listChannel.filter((o) => {
-    return o.provider === 3;
+    return o.provider === 2;
   });
   return (
     <div className="container py-5">
@@ -22,4 +22,4 @@ function TwitchPage() {
     </div>
   );
 }
-export default TwitchPage;
+export default NimoTVPage;

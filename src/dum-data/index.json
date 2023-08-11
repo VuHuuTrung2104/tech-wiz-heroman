@@ -25,56 +25,104 @@
       "name": "Pew pew",
       "provider": 1,
       "previewImg": "https://i.ytimg.com/vi/OBG70L0vCic/maxresdefault.jpg",
-      "url": "https://www.youtube.com/PewPew"
+      "url": "https://www.youtube.com/PewPew",
+      "view": "80357"
     },
     {
       "id": 2,
       "name": "Mixi Gaming",
       "provider": 2,
       "previewImg": "https://i.ytimg.com/vi/1YpPIQZ7XQ8/maxresdefault.jpg",
-      "url": "https://www.youtube.com/@MixiGaming89"
+      "url": "https://www.nimo.tv/mixi",
+      "view": "215,896"
     },
     {
       "id": 3,
       "name": "PewDiePie",
       "provider": 1,
       "previewImg": "https://www.gry-online.pl/i/h/22/527242656.jpg",
-      "url": "https://www.youtube.com/@PewDiePie"
+      "url": "https://www.youtube.com/@PewDiePie",
+      "view": "347,965"
     },
     {
       "id": 4,
       "name": "Tenz",
       "provider": 3,
       "previewImg": "https://i.ex-cdn.com/mgn.vn/files/content/2023/03/04/rsz_c9-tenz-0956.jpg",
-      "url": "https://www.youtube.com/@TenZ"
+      "url": "https://www.youtube.com/@TenZ",
+      "view": "12384"
     },
     {
       "id": 5,
       "name": "Bomman",
       "provider": 1,
-      "previewImg": "https://static.wikia.nocookie.net/youtubia-viet-nam/images/e/e4/Bomman_1.jpg/revision/latest?cb=20211225110311&path-prefix=vi",
-      "url": "https://www.youtube.com/@Bomman"
+      "previewImg": "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/259794742_455380459306596_1464899425455306984_n.jpg?stp=c0.93.843.843a_dst-jpg_p843x403&_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=7a1959&_nc_ohc=NBH1hw1O-g0AX91F0Wa&_nc_ht=scontent-hkg4-1.xx&oh=00_AfBr5cH9g9UjBIVYDp3-v42jD7i0hatEgg-NGcGuIRBOjA&oe=64DB2C0C",
+      "url": "https://www.youtube.com/@Bomman",
+      "view": "4537"
     },
     {
       "id": 6,
       "name": "Truc Tiep Game",
       "provider": 1,
       "previewImg": "https://cdn-img.thethao247.vn/upload/nhathuy/2018/09/20/DUNGCT_1.jpg",
-      "url": "https://www.youtube.com/@TrucTiepGameVN"
+      "url": "https://www.youtube.com/@TrucTiepGameVN",
+      "view": "154,787"
     },
     {
       "id": 7,
       "name": "Tarik",
       "provider": 3,
       "previewImg": "https://game8.vn/media/202208/images/tarik-sentinels-2.jpg",
-      "url": "https://www.twitch.tv/tarik"
+      "url": "https://www.twitch.tv/tarik",
+      "view": "135,740"
     },
     {
       "id": 8,
       "name": "Papaplate",
       "provider": 3,
       "previewImg": "https://static-cdn.jtvnw.net/jtv_user_pictures/04abc1b4-7bad-4b55-8da8-c0f1cf031bda-profile_image-300x300.png",
-      "url": "https://www.twitch.tv/papaplatte"
+      "url": "https://www.twitch.tv/papaplatte",
+      "view": "102,04"
+    },
+    {
+      "id": 9,
+      "name": "Dev Nguyen",
+      "provider": 2,
+      "previewImg": "https://img.nimo.tv/o/banner/5367BA89E0B3CD85E64D89DA7BA7A953_d22c1a11fda9c88feb4a914960294f78.jpg/w640_st1/img.jpg",
+      "url": "https://www.nimo.tv/live/1308310993",
+      "view": "50655"
+    },
+    {
+      "id": 10,
+      "name": "Rambo",
+      "provider": 2,
+      "previewImg": "https://img.nimo.tv/o/banner/78F7165CCFEE929A3E59F1BA4F438C1D_6048069696a2b05793f00bce086675eb.jpg/w640_st1/img.jpg",
+      "url": "https://www.nimo.tv/tuitenbo",
+      "view": "40357"
+    },
+    {
+      "id": 11,
+      "name": "Dj Chip",
+      "provider": 2,
+      "previewImg": "https://img.nimo.tv/o/banner/CA3F5631977DF6E53B242FCC3A566B0A_bc5720b5553d25c164385f6d4d68992c.jpg/w640_st1/img.jpg",
+      "url": "https://www.nimo.tv/live/4165521",
+      "view": "35375"
+    },
+    {
+      "id": 12,
+      "name": "Mimosa Chu",
+      "provider": 2,
+      "previewImg": "https://img.nimo.tv/o/banner/44788359AC14D40E98A6B49BDB0F3D2_27ac3fc912a1dfa659011717cffbecb4.jpg/w640_st1/img.jpg",
+      "url": "https://www.nimo.tv/live/1021117745",
+      "view": "3405"
+    },
+    {
+      "id": 13,
+      "name": "XQC",
+      "provider": 3,
+      "previewImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXF8-77kjKKk3RPK9M-pFTouZ4lBVUSUmzCg&usqp=CAU",
+      "url": "https://www.twitch.tv/xqc",
+      "view": "100,431"
     }
   ]
 }
