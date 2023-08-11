@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tech-wiz-heroman/static/css/main.a882dd2d.css",
-    "main.js": "/tech-wiz-heroman/static/js/main.7ce62b36.js",
+    "main.js": "/tech-wiz-heroman/static/js/main.96e3bc47.js",
     "static/js/787.c513d0b5.chunk.js": "/tech-wiz-heroman/static/js/787.c513d0b5.chunk.js",
     "static/media/istockphoto-1319815121-1024x1024-removebg-preview.png": "/tech-wiz-heroman/static/media/istockphoto-1319815121-1024x1024-removebg-preview.53488ce38a13601f691c.png",
     "static/media/logo.svg": "/tech-wiz-heroman/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tech-wiz-heroman/index.html",
     "main.a882dd2d.css.map": "/tech-wiz-heroman/static/css/main.a882dd2d.css.map",
-    "main.7ce62b36.js.map": "/tech-wiz-heroman/static/js/main.7ce62b36.js.map",
+    "main.96e3bc47.js.map": "/tech-wiz-heroman/static/js/main.96e3bc47.js.map",
     "787.c513d0b5.chunk.js.map": "/tech-wiz-heroman/static/js/787.c513d0b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a882dd2d.css",
-    "static/js/main.7ce62b36.js"
+    "static/js/main.96e3bc47.js"
   ]
 }
