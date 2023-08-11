@@ -9,7 +9,7 @@ function NotFoundPage(params) {
     //     backGroundColor: 'yellow',
     
     return(
-        <div>
+        <div style={{backgroundColor: 'rgb(70, 70, 70)'}}>
            <h1 className='not-found-msg'> ERROR 404 ! Not Found Page</h1> 
         </div>
     );

@@ -50,7 +50,7 @@ function Header () {
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/'}
                 >
                    <img style={{...navImageStream, filter:'invert(1)'}} src='https://www.freepnglogos.com/uploads/logo-home-png/chimney-home-icon-transparent-1.png'></img>
-                  Trang chủ</NavLink>
+                 Home Page</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/NimoTV-page'}>

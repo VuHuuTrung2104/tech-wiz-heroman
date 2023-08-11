@@ -11,7 +11,7 @@ const matchListChannel = listChannel.filter(o => {
 })
     return(
         <div className='container py-5'>
-        <h1>
+        <h1 style={{color: 'white'}}>
          Trang chu
         </h1>
         <div className='row'>
