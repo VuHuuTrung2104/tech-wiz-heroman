@@ -44,15 +44,44 @@ export default function FeedbackPage(props) {
             <i className="fa fa-star"></i>
           </div>
         </div>
-        <button className="btn btn-danger d-block w-100">
-          <a
-            href={channel.url}
-            target="_blank"
-            className="text-white text-decoration-none "
-          >
-            Watch
-          </a>
-        </button>
+        <div className="d-flex justify-content-between mb-2">
+          <button className="btn btn-danger d-block w-25">
+            <a
+              href={channel.url}
+              target="_blank"
+              className="text-white text-decoration-none "
+            >
+              Watch
+            </a>
+          </button>
+          <button className="btn btn-danger d-block w-25">
+            <a
+              href={channel.url}
+              target="_blank"
+              className="text-white text-decoration-none "
+            >
+              Add to Favourite
+            </a>
+          </button>
+          <button className="btn btn-danger d-block w-25">
+            <a
+              href={channel.url}
+              target="_blank"
+              className="text-white text-decoration-none "
+            >
+              Update
+            </a>
+          </button>
+          <button className="btn btn-danger d-block w-25">
+            <a
+              href={channel.url}
+              target="_blank"
+              className="text-white text-decoration-none "
+            >
+              Delete
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
