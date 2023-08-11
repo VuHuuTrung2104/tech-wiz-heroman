@@ -10,7 +10,7 @@ function ContactPage() {
     }
     return (
         <div className="container mt-2">
-            <h1 style={{color:'white'}} className="text-center">My Contact</h1>
+            <h1 style={{color:'white'}} className="text-center">Your Feedback</h1>
             <div className="row">
                 <div className="col col-md-6">
                     <img src={pictures}/>
