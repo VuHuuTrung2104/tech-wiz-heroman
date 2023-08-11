@@ -12,7 +12,7 @@ function AppRoutes() {
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/tech-wiz-heroman" element={<HomePage />}></Route>
-      <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>
+      <Route path="*" element={<HomePage></HomePage>}></Route>
       <Route path="/NimoTV-page" element={<NimoTVPage />}></Route>
       <Route path="/Youtube-page" element={<YoutubePage />}></Route>
       <Route path="/Twitch-page" element={<TwitchPage />}></Route>
