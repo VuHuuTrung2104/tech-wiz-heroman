@@ -71,6 +71,18 @@ function Header () {
                   Twitch</NavLink>
 
               </li>
+              <li style={{margin: '15px 0px 0px 150px',  }} className="nav-item">
+                <NavLink  style={{color:'white', textDecoration: 'none'}} to={'#'}>
+                
+                  My Favourites</NavLink>
+
+              </li>
+              <li style={{margin: '15px 0px 0px 150px',  }} className="nav-item">
+                <NavLink  style={{color:'white', textDecoration: 'none'}} to={'/ContactUs'}>
+                
+                  My Contact</NavLink>
+
+              </li>
             </ul>  
             
           </div>

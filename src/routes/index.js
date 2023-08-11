@@ -4,6 +4,7 @@ import NotFoundPage from "../pages/notfound";
 import NimoTVPage from "../pages/NimoTVPage";
 import YoutubePage from "../pages/YoutubePage";
 import TwitchPage from "../pages/TwitchPage";
+import ContactPage from "../pages/ContactPage";
 
 function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ function AppRoutes() {
       <Route path="/NimoTV-page" element={<NimoTVPage />}></Route>
       <Route path="/Youtube-page" element={<YoutubePage />}></Route>
       <Route path="/Twitch-page" element={<TwitchPage />}></Route>
+      <Route path="/ContactUs" element={<ContactPage/>}></Route>
     </Routes>
   );
 }
