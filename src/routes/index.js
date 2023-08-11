@@ -15,7 +15,7 @@ function AppRoutes() {
       <Route path="/NimoTV-page" element={<NimoTVPage />}></Route>
       <Route path="/Youtube-page" element={<YoutubePage />}></Route>
       <Route path="/Twitch-page" element={<TwitchPage />}></Route>
-      <Route path="/ContactUs" element={<ContactPage />}></Route>
+      <Route path="/Feedback-page" element={<ContactPage />}></Route>
       <Route path="/FavPage" element={<FavPage />}></Route>
     </Routes>
   );

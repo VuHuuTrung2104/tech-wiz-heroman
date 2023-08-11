@@ -154,20 +154,30 @@ function Header() {
                 style={navItem}
                 to={"/FavPage"}
               >
-                <img
-                  style={navImageStream}
-                  src="https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?w=2000"
-                ></img>
+                <svg style={navImageStream} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                </svg>
+
                 Favourite
               </NavLink>
             </li>
-
-            <li style={{ margin: "15px 0px 0px 150px" }} className="nav-item">
+            <li className="nav-item">
               <NavLink
-                style={{ color: "white", textDecoration: "none" }}
-                to={"/ContactUs"}
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-white border-bottom border-2 border-white"
+                    : ""
+                }
+                style={navItem}
+                to={"/Feedback-page"}
               >
-                My Contact
+                <svg style={navImageStream} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+
+                My Feedback
               </NavLink>
             </li>
           </ul>
