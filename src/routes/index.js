@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import NotFoundPage from "../pages/notfound";
-import NimoTVPage from "../pages/NimoTVPage";
+import NimoTVPage from "../pages/NimoTVPage.js";
 import YoutubePage from "../pages/YoutubePage";
 import TwitchPage from "../pages/TwitchPage";
 
