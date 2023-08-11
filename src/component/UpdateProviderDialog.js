@@ -14,8 +14,7 @@ export default function UpdateDialog() {
 
   const resetForm = () => {
     setForm({
-      logoUrl:v]
-        "https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png",
+      logoUrl: "https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png",
       name: "Youtube",
       url: "https://www.youtube.com/",
     });
