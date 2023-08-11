@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Card from "../component/card";
 import dummyData from "../dum-data/index.json";
-
 function TwitchPage() {
   console.log(dummyData);
   const [listChannel, setlistChannel] = useState(dummyData.listChannel || []);
@@ -23,3 +22,4 @@ function TwitchPage() {
   );
 }
 export default TwitchPage;
+

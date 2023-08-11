@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import Card from "../component/card";
 import dummyData from "../dum-data/index.json";
 
+
 function YoutubePage() {
   console.log(dummyData);
   const [listChannel, setlistChannel] = useState(dummyData.listChannel || []);
-  const matchListChannel = listChannel.filter((o) => {
+  const matchListChannel = listChannel.filter((o) => { 
     return o.provider === 1;
   });
   return (

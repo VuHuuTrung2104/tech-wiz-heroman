@@ -5,11 +5,13 @@ import CreateDialog from "./CreateProviderDialog";
 import UpdateDialog from "./UpdateProviderDialog";
 export default function FeedbackPage(props) {
   const { channel } = props;
+
   const removeProvider = (channel) => {
     const newArray = channel.filter((item) => {
       return item.id !== channel;
     });
   };
+
   return (
     <div className="card" style={{ background: "rgb(36, 36, 36)" }}>
       <div className="d-flex justify-content-between p-3">
@@ -52,7 +54,7 @@ export default function FeedbackPage(props) {
           </div>
         </div>
         <div className="d-flex justify-content-between mb-2">
-          <button className="btn btn-danger d-block w-25">
+          <button style={styleCard} className="btn btn-danger d-block w-25">
             <a
               href={channel.url}
               target="_blank"
@@ -61,6 +63,7 @@ export default function FeedbackPage(props) {
               Watch
             </a>
           </button>
+
           <button className="btn btn-danger d-block w-25">
             <a href="" className="text-white text-decoration-none ">
               <div>
@@ -73,7 +76,7 @@ export default function FeedbackPage(props) {
               <UpdateDialog />
             </div>
           </button>
-          <button className="btn btn-danger d-block w-25">
+          <button style={styleCard} className="btn btn-danger d-block w-25">
             <a
               href=""
               className="text-white text-decoration-none "

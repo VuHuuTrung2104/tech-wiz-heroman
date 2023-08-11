@@ -50,7 +50,7 @@ function Header () {
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/'}
                 >
                    <img style={{...navImageStream, filter:'invert(1)'}} src='https://www.freepnglogos.com/uploads/logo-home-png/chimney-home-icon-transparent-1.png'></img>
-                  Trang chủ</NavLink>
+                 Home Page</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/NimoTV-page'}>
@@ -69,6 +69,18 @@ function Header () {
                 <NavLink  className={({ isActive, isPending }) => isPending ? 'pending' : isActive ? 'text-white border-bottom border-2 border-white' : ''} style={navItem} to={'/Twitch-page'}>
                 <img style={navImageStream} src='https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?w=2000'></img>
                   Twitch</NavLink>
+
+              </li>
+              <li style={{margin: '15px 0px 0px 150px',  }} className="nav-item">
+                <NavLink  style={{color:'white', textDecoration: 'none'}} to={'#'}>
+                
+                  My Favourites</NavLink>
+
+              </li>
+              <li style={{margin: '15px 0px 0px 150px',  }} className="nav-item">
+                <NavLink  style={{color:'white', textDecoration: 'none'}} to={'/ContactUs'}>
+                
+                  My Contact</NavLink>
 
               </li>
             </ul>  
